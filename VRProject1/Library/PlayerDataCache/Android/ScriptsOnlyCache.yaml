@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - DigitalRuby.RainMaker.RainCollision
+    - DigitalRuby.RainMaker.RainScript
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -58,7 +61,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentCallGroup
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Main.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -85,6 +88,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -92,33 +97,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1876}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 1946}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 3478}
+      Script: {instanceID: 2954}
     - Class: 114
-      Script: {instanceID: 3986}
+      Script: {instanceID: 3542}
     - Class: 114
-      Script: {instanceID: 4336}
+      Script: {instanceID: 4052}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4402}
     - Class: 114
-      Script: {instanceID: 4422}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4488}
     - Class: 114
-      Script: {instanceID: 4874}
+      Script: {instanceID: 4588}
     - Class: 114
-      Script: {instanceID: 6710}
+      Script: {instanceID: 4940}
     - Class: 114
-      Script: {instanceID: 7364}
+      Script: {instanceID: 4966}
     - Class: 114
-      Script: {instanceID: 7928}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 8770}
+      Script: {instanceID: 7440}
     - Class: 114
-      Script: {instanceID: 9108}
+      Script: {instanceID: 8006}
+    - Class: 114
+      Script: {instanceID: 8848}
+    - Class: 114
+      Script: {instanceID: 9190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -129,7 +138,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 182
+      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -314,6 +329,12 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 1a54fa0372f64f0aa311d445332e24b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: RainCollision
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -438,6 +459,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: d18cc7ba10aa006e6bd980ec49a29a17
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: BaseRainScript
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -686,6 +713,12 @@ ScriptsOnlyBuild:
     className: LocomotionSystem
   - hash:
       serializedVersion: 2
+      Hash: 2dd2bacdc5371d1256b8aca94283063e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: RainScript
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -932,6 +965,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: 5debaa58a5b0baf31a991235de0c9047
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: DemoScriptStartRainOnSpaceBar
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -972,6 +1011,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRRayInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 76b6aef2414f95a502f23603160b5812
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: RainScript2D
   - hash:
       serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
@@ -1232,6 +1277,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: cf0406f277cad8ec73c6191c09974c7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: DemoScript
+  - hash:
+      serializedVersion: 2
       Hash: 893dbdbfe611d62e230a686ea89f1efd
     assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
     namespaceName: UnityEngine.XR.LegacyInputHelpers
@@ -1266,6 +1317,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: da72d5124e2ced2a9dafa1f76240dda8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DigitalRuby.RainMaker
+    className: DemoScript2D
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1334,5 +1391,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Student/Documents/GitHub/VRSetup/VRSetup/Builds/vr.apk
+  - Assets/Scenes/Main.unity
+  playerPath: C:/Users/notan/Documents/GitHub/VRProject1/VRProject1/Builds/vr.apk
