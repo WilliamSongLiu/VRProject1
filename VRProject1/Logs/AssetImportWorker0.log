@@ -462,3 +462,24 @@ Received Import Request.
   path: Assets/Scenes/Main.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3886bdbb994631148d59c232be6bc84d') in 0.142888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2247.886018 seconds.
+  path: Assets/RainMaker/Prefab/RainMaterial.mat
+  artifactKey: Guid(5a5cdbef1fec3ec4ab759228c8234ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainMaterial.mat using Guid(5a5cdbef1fec3ec4ab759228c8234ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+ -> (artifact id: '6af4695361b981a41dc02ca3d98f4d30') in 2.266223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.471564 seconds.
+  path: Assets/RainMaker/Prefab/RainExplosionMaterial.mat
+  artifactKey: Guid(bd4df8ad7f6a91b4aad18ac427db8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainExplosionMaterial.mat using Guid(bd4df8ad7f6a91b4aad18ac427db8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+ -> (artifact id: '0eff432767a1ed144cd0adcffa1d87e3') in 0.106827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.538181 seconds.
+  path: Assets/RainMaker/Prefab/RainMistMaterial.mat
+  artifactKey: Guid(26903820d8bdf4145af868b7b12d0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainMistMaterial.mat using Guid(26903820d8bdf4145af868b7b12d0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+ -> (artifact id: '0711466651cb4aa7f042376cac53e44c') in 0.044193 seconds 
