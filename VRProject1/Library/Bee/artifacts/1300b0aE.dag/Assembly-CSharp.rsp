@@ -376,6 +376,9 @@
 "Assets/RainMaker/Prefab/RainCollision.cs"
 "Assets/RainMaker/Prefab/RainScript.cs"
 "Assets/RainMaker/Prefab/RainScript2D.cs"
+"Assets/Scripts/HandScript.cs"
+"Assets/Scripts/PointerScript.cs"
+"Assets/Scripts/UmbrellaScript.cs"
 -langversion:9.0
 
 /deterministic
