@@ -387,7 +387,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/RainMaker/Editor/RainMakerEditor.cs"
+"Assets/Imports/RainMaker/Editor/RainMakerEditor.cs"
 -langversion:9.0
 
 /deterministic
