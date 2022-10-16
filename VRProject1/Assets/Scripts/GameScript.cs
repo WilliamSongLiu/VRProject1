@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class GameScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	public Transform playerTransform;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+	private void Update() {
+        float tensionLevel;
     }
 }

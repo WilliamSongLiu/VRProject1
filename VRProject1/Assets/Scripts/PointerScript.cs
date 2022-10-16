@@ -8,7 +8,7 @@ public class PointerScript : MonoBehaviour
 	public Transform leftHandTransform, rightHandTransform;
 
 	private void Update() {
-		transform.position = new Vector3(playerTransform.position.x, 0f, playerTransform.position.z);
+		transform.position = new Vector3(playerTransform.position.x, 1.2f, playerTransform.position.z);
 
 		float leftHandDistance = Vector3.Distance(transform.position, leftHandTransform.position);
 		float rightHandDistance = Vector3.Distance(transform.position, rightHandTransform.position);
