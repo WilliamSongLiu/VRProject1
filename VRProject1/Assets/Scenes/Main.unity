@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.2
+  m_FogDensity: 0.1
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -3935,8 +3935,8 @@ Transform:
   - {fileID: 1864187770}
   - {fileID: 308184594}
   - {fileID: 76856775}
-  - {fileID: 1556730227}
   - {fileID: 2021022324}
+  - {fileID: 1556730227}
   - {fileID: 1560984527}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -5072,8 +5072,11 @@ MonoBehaviour:
   playerTransform: {fileID: 608514457}
   leftHandTransform: {fileID: 1122131499}
   rightHandTransform: {fileID: 440313600}
+  goalCorner1Transform: {fileID: 1188192410}
+  goalCorner2Transform: {fileID: 54162742}
   heartBeatSource: {fileID: 40353202}
-  cameraSource: {fileID: 0}
+  cameraSource: {fileID: 608514461}
+  sighClip: {fileID: 8300000, guid: bf7c7406116d02b4c96d47a992dd7bdb, type: 3}
 --- !u!1001 &984029657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8934,7 +8937,7 @@ Transform:
   - {fileID: 390814989}
   - {fileID: 138843789}
   m_Father: {fileID: 670840209}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2022234810
 GameObject:
