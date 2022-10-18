@@ -12,7 +12,7 @@ public class HandScript : MonoBehaviour
 	private void Start() {
 		audioSource = GetComponent<AudioSource>();
 
-		nextSoundTime = Random.Range(8f, 15f);
+		nextSoundTime = Random.Range(4f, 8f);
 	}
 	private void Update() {
 		transform.position = controllerTransform.position;
@@ -20,7 +20,7 @@ public class HandScript : MonoBehaviour
 		nextSoundTime -= Time.deltaTime;
 		if(nextSoundTime <= 0f) {
 			audioSource.PlayOneShot(monsterClips[Random.Range(0, monsterClips.Length)]);
-			nextSoundTime = Random.Range(8f, 15f);
+			nextSoundTime = Random.Range(4f, 8f);
 		}
 	}
 }
