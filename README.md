@@ -16,6 +16,10 @@ This is an experience designed for active audience participation. 2 volunteer mo
 
 The monsters will move toward the player, making slow but loud footsteps.
 
+## Demo
+
+https://user-images.githubusercontent.com/29131709/197462053-053e0653-59ef-4f5b-b34e-f1fc1eb1cadd.mp4
+
 ## Reflection
 
 I was exploring the emotions of fear and relief in my project. Plenty of horror games use these themes, so I aimed to strip away as much as possible and only have the essential component necessary to convey a sense of fear and relief.
